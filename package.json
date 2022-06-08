@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is for testing to learn node.js & git",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raza-komal/assign_1.git"
+  },
+  "author": "komal raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raza-komal/assign_1/issues"
+  },
+  "homepage": "https://github.com/raza-komal/assign_1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
